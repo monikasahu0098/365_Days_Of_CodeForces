@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    int a,b;
+    cin>>a>>b;
+    
+    int countYear=0;
+    while(a<=b){
+        a=a*3;
+        b=b*2;
+        countYear++;
+    }
+    cout<<countYear<<endl;
+    return 0;
+}
