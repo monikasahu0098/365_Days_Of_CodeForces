@@ -25,4 +25,5 @@ int main(){
             cout << "YES\n";
         }
     }
+
 }
